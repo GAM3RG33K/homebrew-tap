@@ -3,8 +3,8 @@
 # `version` and `sha256` for each release. Edit everything else here.
 #   brew install --cask GAM3RG33K/tap/unrestor
 cask "unrestor" do
-  version "0.1.5"
-  sha256 "c818b22a490b56e1c975ac3641b27154bc0c060c5ac50d16627d5aa427257f62"
+  version "0.1.6"
+  sha256 "ad4c7ab63e488c352bfa41c2b22949ff7bea31ae3bee79f04ecf403b6d3d859e"
 
   url "https://github.com/GAM3RG33K/unrestor/releases/download/v#{version}/Unrestor-#{version}.dmg"
   name "Unrestor"
