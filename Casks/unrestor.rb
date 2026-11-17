@@ -3,15 +3,15 @@
 # `version` and `sha256` for each release. Edit everything else here.
 #   brew install --cask GAM3RG33K/tap/unrestor
 cask "unrestor" do
-  version "0.1.2"
-  sha256 "f75599d73a2ea3a332c03b34993721abdd32350f6033930be09550ddb5e4a1d4"
+  version "0.1.3"
+  sha256 "439b4dbe0d0e2855b6e1705ac95ca69f973e25518da9682dcfc53f7b1b552238"
 
   url "https://github.com/GAM3RG33K/unrestor/releases/download/v#{version}/Unrestor-#{version}.dmg"
   name "Unrestor"
   desc "Keep your MacBook awake with the lid closed while work runs"
   homepage "https://github.com/GAM3RG33K/unrestor"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Unrestor.app"
   binary "#{appdir}/Unrestor.app/Contents/Helpers/unrestor"
